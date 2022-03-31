@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AgeList from './components/AgeList';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Covid from "./screens/Covid";
@@ -7,6 +8,7 @@ import Covid from "./screens/Covid";
 ReactDOM.render(
   <React.StrictMode>
     <Covid />
+    <AgeList />
   </React.StrictMode>,
   document.getElementById('root')
 );
